@@ -20,8 +20,6 @@ from bot.helper.telegram_helper.message_utils import *
 from bot.helper.ext_utils.bot_utils import setInterval, new_thread, MirrorStatus, getDownloadByGid
 from bot.helper.telegram_helper import button_build
 
-LOGGER = logging.getLogger(__name__)
-
 
 class qbittorrent:
 
